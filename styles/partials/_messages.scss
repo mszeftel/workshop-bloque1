@@ -1,0 +1,14 @@
+sidebar.messages{
+	overflow: hidden;
+	max-height: 0;
+	div.message{
+		height: 100px;
+		background-color: blueviolet ;
+	}
+}
+
+@media screen and (min-width: 769px){
+	sidebar.messages{
+		max-height: unset;
+	}
+}

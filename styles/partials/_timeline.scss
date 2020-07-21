@@ -1,0 +1,10 @@
+main.timeline{
+	order: -1;
+}
+
+@media screen and (min-width: 769px){
+	main.timeline{
+		order: unset;
+	}
+
+}	

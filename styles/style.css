@@ -1,0 +1,124 @@
+html {
+  font-size: 14px;
+}
+
+/* ESTILO DEL NAVBAR */
+#navbar {
+  position: fixed;
+  bottom: 0;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+
+#navbar a {
+  text-align: center;
+  width: 25%;
+  font-size: 34px;
+}
+
+#navbar a span {
+  display: none;
+}
+
+@media screen and (min-width: 769px) {
+  #navbar {
+    position: relative;
+    bottom: unset;
+    -webkit-box-align: unset;
+        -ms-flex-align: unset;
+            align-items: unset;
+  }
+  #navbar a {
+    text-align: unset;
+    width: unset;
+    font-size: unset;
+  }
+  #navbar a span {
+    display: unset;
+  }
+}
+
+sidebar.messages {
+  overflow: hidden;
+  max-height: 0;
+}
+
+sidebar.messages div.message {
+  height: 100px;
+  background-color: blueviolet;
+}
+
+@media screen and (min-width: 769px) {
+  sidebar.messages {
+    max-height: unset;
+  }
+}
+
+sidebar.friends {
+  overflow: hidden;
+  max-height: 0;
+}
+
+sidebar.friends div.contact {
+  height: 100px;
+  background-color: blanchedalmond;
+}
+
+@media screen and (min-width: 769px) {
+  sidebar.friends {
+    max-height: unset;
+  }
+}
+
+main.timeline {
+  -webkit-box-ordinal-group: 0;
+      -ms-flex-order: -1;
+          order: -1;
+}
+
+@media screen and (min-width: 769px) {
+  main.timeline {
+    -webkit-box-ordinal-group: unset;
+        -ms-flex-order: unset;
+            order: unset;
+  }
+}
+
+/* ESTILO DEL NAVBAR */
+#navbar {
+  position: fixed;
+  bottom: 0;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+
+#navbar a {
+  text-align: center;
+  width: 25%;
+  font-size: 34px;
+}
+
+#navbar a span {
+  display: none;
+}
+
+@media screen and (min-width: 769px) {
+  #navbar {
+    position: relative;
+    bottom: unset;
+    -webkit-box-align: unset;
+        -ms-flex-align: unset;
+            align-items: unset;
+  }
+  #navbar a {
+    text-align: unset;
+    width: unset;
+    font-size: unset;
+  }
+  #navbar a span {
+    display: unset;
+  }
+}
+/*# sourceMappingURL=style.css.map */
