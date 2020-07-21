@@ -1,0 +1,48 @@
+html{
+	font-size: 14px;
+}
+
+main.timeline{
+	order: -1;
+}
+
+sidebar.friends{
+	overflow: hidden;
+	max-height: 0;
+	div.contact{
+		height: 100px;
+		background-color: blanchedalmond ;
+	}
+}
+
+sidebar.messages{
+	overflow: hidden;
+	max-height: 0;
+	div.message{
+		height: 100px;
+		background-color: blueviolet ;
+	}
+}
+
+
+#navbar{
+	position: fixed;
+	bottom: 0;
+	align-items: stretch;
+}
+
+@media screen and (min-width: 769px){
+	#navbar{
+		position: relative;
+		bottom: unset;
+		align-items: unset;
+	}
+
+	main.timeline{
+		order: unset;
+	}
+
+	sidebar.friends,sidebar.messages{
+		max-height: unset;
+	}
+}	
