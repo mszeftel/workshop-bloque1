@@ -6,9 +6,6 @@ html {
 #navbar {
   position: fixed;
   bottom: 0;
-  -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
 }
 
 #navbar a {
@@ -41,7 +38,6 @@ html {
 
 sidebar.messages {
   overflow: hidden;
-  max-height: 0;
 }
 
 sidebar.messages div.message {
@@ -57,7 +53,6 @@ sidebar.messages div.message {
 
 sidebar.friends {
   overflow: hidden;
-  max-height: 0;
 }
 
 sidebar.friends div.contact {
@@ -85,40 +80,5 @@ main.timeline {
   }
 }
 
-/* ESTILO DEL NAVBAR */
-#navbar {
-  position: fixed;
-  bottom: 0;
-  -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
-}
-
-#navbar a {
-  text-align: center;
-  width: 25%;
-  font-size: 34px;
-}
-
-#navbar a span {
-  display: none;
-}
-
-@media screen and (min-width: 769px) {
-  #navbar {
-    position: relative;
-    bottom: unset;
-    -webkit-box-align: unset;
-        -ms-flex-align: unset;
-            align-items: unset;
-  }
-  #navbar a {
-    text-align: unset;
-    width: unset;
-    font-size: unset;
-  }
-  #navbar a span {
-    display: unset;
-  }
-}
+/* FOOTER */
 /*# sourceMappingURL=style.css.map */
