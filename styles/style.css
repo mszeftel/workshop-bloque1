@@ -44,6 +44,7 @@ html {
 
 sidebar.messages {
   overflow: hidden;
+  margin-bottom: 70px;
 }
 
 @media screen and (min-width: 769px) {
@@ -54,6 +55,7 @@ sidebar.messages {
 
 sidebar.friends {
   overflow: hidden;
+  margin-bottom: 10px;
 }
 
 sidebar.friends div.contact {
